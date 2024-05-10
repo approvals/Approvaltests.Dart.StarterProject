@@ -1,5 +1,3 @@
-// ignore_for_file: avoid_relative_lib_imports
-
 import 'package:approval_tests/approval_tests.dart';
 import 'package:starter_project/starter_project.dart';
 import 'package:test/test.dart';
@@ -26,6 +24,7 @@ void main() {
           comparator: IDEComparator(
             ide: ComparatorIDE.visualStudioCode,
           ),
+          filesPath: "test/approved_files/gilded_rose",
         ),
         processor: processItemCombination,
       );
