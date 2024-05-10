@@ -1,0 +1,14 @@
+.dart_tool/
+.idea
+
+# Coverage
+coverage/
+
+# Pubspec
+pubspec.lock
+
+# Codegen 
+*.*.dart
+*.g.dart
+*.received.*
+generated_*
