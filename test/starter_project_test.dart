@@ -24,7 +24,8 @@ void main() {
           comparator: IDEComparator(
             ide: ComparatorIDE.visualStudioCode,
           ),
-          filesPath: "test/approved_files/gilded_rose",
+          // approveResult: true,
+          // filesPath: "test/approved_files/gilded_rose",
         ),
         processor: processItemCombination,
       );

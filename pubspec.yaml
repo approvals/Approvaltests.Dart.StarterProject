@@ -4,10 +4,10 @@ version: 1.0.0
 publish_to: 'none'
 
 environment:
-  sdk: ^3.3.4
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
-  approval_tests: 0.4.5
+  approval_tests: ^0.4.6
 
 dev_dependencies:
   sizzle_lints: ^2.0.2
