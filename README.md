@@ -8,6 +8,8 @@
 
 <h2 align="center"> Starter Project for Approval Tests implementation in Dart 🚀 </h2>
 
+<a href="https://github.com/approvals/ApprovalTests.Dart.StarterProject/actions/workflows/test.yml"><img src="https://github.com/approvals/ApprovalTests.Dart.StarterProject/actions/workflows/test.yml/badge.svg" alt="Test badge"></a>
+
 ## 📖 About
 
 **[Approval Tests](https://approvaltests.com/)** are an alternative to assertions. You’ll find them useful for testing objects with complex values *(such as long strings)*, lots of properties, or collections of objects.

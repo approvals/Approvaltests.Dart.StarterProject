@@ -7,7 +7,7 @@ environment:
   sdk: ^3.3.4
 
 dependencies:
-  approval_tests: 0.4.0
+  approval_tests: 0.4.5
 
 dev_dependencies:
   sizzle_lints: ^2.0.2
