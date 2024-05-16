@@ -16,15 +16,13 @@ void main() {
   ];
 
   group('Approval Tests for Gilded Rose', () {
-    test('should verify all combinations of test cases', () {
+    test('verify all combinations', () {
       // Perform the verification for all combinations
       Approvals.verifyAllCombinations(
         allTestCases,
         options: const Options(
-          comparator: IDEComparator(
-            ide: ComparatorIDE.visualStudioCode,
-          ),
-          // approveResult: true,
+          comparator: IDEComparator(),
+          approveResult: true,
           // filesPath: "test/approved_files/gilded_rose",
         ),
         processor: processItemCombination,
