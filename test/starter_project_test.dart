@@ -17,12 +17,11 @@ void main() {
 
   group('Approval Tests for Gilded Rose', () {
     test('verify all combinations', () {
-      // Perform the verification for all combinations
       Approvals.verifyAllCombinations(
         allTestCases,
-        options: const Options(
-          reporter: DiffReporter(),
-        ),
+        // options: const Options(
+        //   reporter: DiffReporter(),
+        // ),
         processor: processItemCombination,
       );
     });
