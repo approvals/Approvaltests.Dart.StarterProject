@@ -21,9 +21,7 @@ void main() {
       Approvals.verifyAllCombinations(
         allTestCases,
         options: const Options(
-          comparator: IDEComparator(),
-          approveResult: true,
-          // filesPath: "test/approved_files/gilded_rose",
+          reporter: DiffReporter(),
         ),
         processor: processItemCombination,
       );
