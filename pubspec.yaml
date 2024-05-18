@@ -7,8 +7,8 @@ environment:
   sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
-  approval_tests:
-    path: ../ApprovalTests.Dart
+  approval_tests: ^0.4.6
+    # path: ../ApprovalTests.Dart
 
 dev_dependencies:
   sizzle_lints: ^2.0.2
