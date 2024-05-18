@@ -1,4 +1,4 @@
-/// Non refactored `GildedRose` class from Gilded Rose Kata
+/// Non refactored `GildedRose` class from Gilded Rose Kata.
 /// This code is waiting for you to try to improve it using TDD and our package.
 
 final class GildedRose {
