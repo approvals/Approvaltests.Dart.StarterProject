@@ -13,12 +13,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Dart SDK
+      - name: 🐦 Set up Dart SDK
         uses: dart-lang/setup-dart@v1.4
         with:
           sdk: stable
 
-      - name: Test
+      - name: 📦 Install Dependencies
         run: |
-          ./test.sh
-        shell: bash
+         dart pub global activate coverage
+         dart pub get
+
+      - name: ✨ Check Formatting
+        run: dart format --set-exit-if-changed .
+      
+      - name: 🕵️ Analyze
+        run: flutter analyze .
+
+      - name: 🧪 Run Tests
+        run: dart run test --coverage=./coverage && dart pub global run coverage:format_coverage --packages=.dart_tool/package_config.json --report-on=lib --lcov -o ./coverage/lcov.info -i ./coverage
