@@ -7,7 +7,7 @@ environment:
   sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
-  approval_tests: ^0.4.6
+  approval_tests: ^0.5.1
     # path: ../ApprovalTests.Dart
 
 dev_dependencies:
