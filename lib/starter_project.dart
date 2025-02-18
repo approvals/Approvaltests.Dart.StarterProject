@@ -12,7 +12,8 @@ final class GildedRose {
   /// Non refactored updateQuality method
   void updateQuality() {
     for (int i = 0; i < items.length; i++) {
-      if (items[i].name != "Aged Brie" && items[i].name != "Backstage passes to a TAFKAL80ETC concert") {
+      if (items[i].name != "Aged Brie" &&
+          items[i].name != "Backstage passes to a TAFKAL80ETC concert") {
         if (items[i].quality > 0) {
           if (items[i].name != "Sulfuras, Hand of Ragnaros") {
             items[i].quality = items[i].quality - 1;
